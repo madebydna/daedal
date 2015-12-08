@@ -36,6 +36,7 @@ require 'daedal/filters/or_filter'
 require 'daedal/filters/bool_filter'
 require 'daedal/filters/nested_filter'
 require 'daedal/filters/type_filter'
+require 'daedal/filters/regexp_filter'
 
 # queries
 require 'daedal/queries/match_all_query'
@@ -54,5 +55,5 @@ require 'daedal/queries/terms_query'
 require 'daedal/queries/range_query'
 require 'daedal/queries/function_score_query'
 require 'daedal/queries/simple_query_string_query'
-
+require 'daedal/queries/regexp_query'
 # facets
