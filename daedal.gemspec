@@ -13,5 +13,5 @@ Gem::Specification.new do |s|
   s.homepage    =
     'https://github.com/cschuch/daedal'
 
-  s.add_dependency('virtus', '>= 1.0.0')
+  s.add_dependency('virtus', '1.0.2')
 end
